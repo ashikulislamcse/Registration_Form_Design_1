@@ -7,11 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <label for="fname">First Name:</label>
-    <input type="text" name="first name" size="20px"> <br> <br>
-    <label for="mname">Middle Name:</label>
-    <input type="text" name="Middlename" size="20px"><br> <br>
-    <label for="lname">Last Name:</label>
-    <input type="text" name="lname" size="20px">
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" name="first name" size="20px"> <br> <br>
+        <label for="mname">Middle Name:</label>
+        <input type="text" name="Middlename" size="20px"><br> <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" size="20px"> <br> <br>
+        <label for="course">Course:</label>
+        <select name="select">
+            <option value="course">Course</option>
+            <option value="course">Computer Science and Technology</option>
+            <option value="course">Food Technology</option>
+            <option value="course">Architechture and Interior Design Technology</option>
+            <option value="course">Refrigaration and Airconditioning Technology</option>
+            <option value="course">Mechatronics Technology</option>
+        </select> <br> <br>
+        <label for="gender">Gender:</label> <br><br>
+        <input type="radio" name="male" />Male
+        <input type="radio" name="female" />Female
+        <input type="radio" name="other" />Other <br> <br>
+        <label for="phone">Phone:</label>
+        <input type="text" name="country code" value="+880" size="2px">
+        <input type="text" name="number"> <br> <br>
+        <label for="address">Address:</label> <br> <br>
+        <textarea name="address" cols="110" rows="5"></textarea> <br> <br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" size="20px"> <br>  <br>
+        <label for="password">Password:</label>
+        <input type="text" name="password" size="20px"> <br> <br>
+        <label for="retype_password">Retype-Password:</label>
+        <input type="text" name="retype_password" size="20px"> <br> <br>
+        <button>Submit</button>
+    </form>
 </body>
 </html>
