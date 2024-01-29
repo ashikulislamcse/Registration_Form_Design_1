@@ -1,5 +1,11 @@
+body{
+    background-color: lightskyblue;
+}
 h1{
     background-color: red;
     text-align: center;
     color: aliceblue;
+}
+input{
+    color: black;
 }
